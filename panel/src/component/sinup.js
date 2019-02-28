@@ -64,13 +64,13 @@ class LoginPage extends Component {
               {this.state.error}
             </h3>
           }
-          <label className="text ">User Name</label>
+          <label className="text ">User Name:</label>
           <br/>
           <input className="inputsize" type="text " data-test="username" value={this.state.username} onChange={this.handleUserChange} />
          <br/>
-          <label className="text">Password</label>
+          <label className="text">Password:</label>
           <br/>
-          <label className="text ">Email</label>
+          <label className="text ">Email:</label>
           <br/>
           <input className="inputsize" type="email" data-test="email" value={this.state.email} onChange={this.handleUserChange} />
           <br/>
