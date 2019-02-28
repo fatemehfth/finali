@@ -1,0 +1,30 @@
+.text{
+    color: darkblue;
+    font-size: 30px;
+}
+
+.back{
+   
+    padding: 50px;
+    
+}
+.input{
+    margin: 48px;
+
+    padding: 11px;
+    
+    font-size: 25px;
+    
+    color: darkblue;
+    
+    background-color: lightblue;
+    
+    border-width: 3px;
+    
+    border-color: blue;
+    border-radius: 20%;
+}
+.inputsize{
+    width: 30ch;
+    height: 5ch;
+}
